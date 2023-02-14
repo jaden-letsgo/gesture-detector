@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jan 28 00:44:25 2021
+Template Created on Thu Jan 28 00:44:25 2021 by chakati
 Modified on October 7, 2022
 
-@author: chakati
 @Modified: Jiahui Li 
 """
 ## import the handfeature extractor class
