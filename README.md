@@ -35,9 +35,9 @@ This project contains 4 files and 2 folders:
     * To extract a single frame from video
 * handshape_feature_extractor.py*
     * To extract handshape feature from image by using cnn.h5 Tensorflow model
-* test/*
+* test*
     * Unlabeled testing video
-* traindata/
+* traindata
     * Labeled training video recoded by user with application from project part 1
 
 ## Output
