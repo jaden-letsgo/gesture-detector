@@ -1,4 +1,4 @@
-# SmartHome Gesture Application Control - Part 2
+# Gesture Detector Model - Part 2
 
 ## Author
 Jiahui Li\
