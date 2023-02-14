@@ -42,9 +42,9 @@ This project contains 4 files and 2 folders:
 
 ## Output
 This project will creates 2 folders and 1 file as being ran:
-* extracted_test_image/
+* extracted_test_image
     * This folder contains all the extracted unlabeled testing video frame as .png image
-* extracted_training_image/
+* extracted_training_image
     * This folder contains all the extracted labeled training video frame as .png image
 * Result.csv
     * This single column .csv file contain the result for classification of the testing video
