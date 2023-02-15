@@ -22,12 +22,6 @@ name_dict = {"FANDOWN":"10", "FANOFF":"12", "FANON":"11",
 "NUMSEVEN":"7", "NUMSIX":"6", "NUMTHREE":"3", "NUMTWO":"2", 
 "NUMZERO":"0", "SETTHERMO":"16"}
 
-#For percentage calculation use only
-"""test_name_dict= {"0.mp4": "0", "1.mp4": "1", "2.mp4": "2", 
-"3.mp4": "3", "4.mp4": "4", "5.mp4": "5", "6.mp4": "6", "7.mp4": "7", 
-"8.mp4": "8", "9.mp4": "9", "DecreaseFanSpeed.mp4": "10", "DecereaseFanSpeed.mp4": "10",
-"FanOff.mp4":"12", "FanOn.mp4":"11", "IncreaseFanSpeed.mp4":"13", 
-"LightOff.mp4": "14", "LightOn.mp4":"15", "SetThermo.mp4":"16"}"""
 test_name_dict2= {}
 image_name = {}
 train_dict= {}
@@ -138,9 +132,14 @@ with open('Results.csv','r') as f:
 with open('Results.csv', 'w') as f:    
     f.writelines(lines)
 # =============================================================================
-# Print percentage
+# Print percentage #Place holder for percentage calculation use only
 # =============================================================================
 """
+test_name_dict= {"0.mp4": "0", "1.mp4": "1", "2.mp4": "2", 
+"3.mp4": "3", "4.mp4": "4", "5.mp4": "5", "6.mp4": "6", "7.mp4": "7", 
+"8.mp4": "8", "9.mp4": "9", "DecreaseFanSpeed.mp4": "10", "DecereaseFanSpeed.mp4": "10",
+"FanOff.mp4":"12", "FanOn.mp4":"11", "IncreaseFanSpeed.mp4":"13", 
+"LightOff.mp4": "14", "LightOn.mp4":"15", "SetThermo.mp4":"16"}
 percentage = 0
 for item in prediction:
 	if prediction[item][0] == test_name_dict[test_name_dict2[item]]:
