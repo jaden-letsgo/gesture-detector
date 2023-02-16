@@ -12,6 +12,8 @@ This is part 2 of the project. In part one, we developed an Android application 
 This part 2 of the project is to develop a RESTful application for the SmartHome gestures classification by using a pre-trained. The user's recorded video from project 1 are used as labeled training gestures and given gesture videos as used as unlabeled testing gestures, both are first extracted for a single frame, and the frame will be analyzed by the with a pre-trained Tensorflow model. The unlabeled testing gestures will be classified by comparing the cosine similarity.
 
 ## Requirement
+!!!Please Download pre-train model from: [Google Drive](https://drive.google.com/file/d/15jV8Czn4UZn0MIgsJuTVGtIl6IPamSpe/view?usp=sharing)!!!
+
 Be sure [python](https://www.python.org/) is up to date!\
 The following python library must be install prior to running the program:
 * [Tensorflow](https://www.tensorflow.org/)
@@ -29,7 +31,7 @@ All files and folder must to be in the same working directory/folder.\
 This project contains 4 files and 2 folders:
 * main.py
     * program's main driver. Use this file to run the program
-* cnn.h5*
+* cnn.h5* [Google Drive Download Link](https://drive.google.com/file/d/15jV8Czn4UZn0MIgsJuTVGtIl6IPamSpe/view?usp=sharing)
     * Pre-trained Tensorflow model
 * frameextractor.py*
     * To extract a single frame from video
